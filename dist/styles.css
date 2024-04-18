@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),url(images/pexels-hikaique-125510.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.sidebar-result{
+  background-color: rgba(203,203,203,.5);
+  /* padding:3rem 8rem; */
+  /* padding: 2.5rem 3.5rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  width: 500px;
+}
+
+input:focus{
+  border: none;
+}
+
+#search{
+border-radius: 50px;
+background-color: #D9D9D9;
+border: none;
+padding: .8rem;
+width: 250px;
+}
+
+.result{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.result p{
+  margin: 5px;
+  margin-left: 2.7rem;
+  color: #fff;
+  
+}
+.temp{
+  font-size:3.8rem;
+  font-weight: bold;
+}
+
+.weather-title{
+  color: #fff;
+  position: absolute;
+  bottom: 242px;
+  left: 280px;
+  font-weight: bold;
+  letter-spacing: .2em;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.city{
+  font-weight: bold;
+}
